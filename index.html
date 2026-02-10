@@ -12,8 +12,10 @@
         <h3>Ma<span class="color">r</span>y</h3>
       </section>
       <section class="nav-a">
-        <a href="#">Portfolio</a><a href="#">Blog</a
-        ><a href="#"><button class="btn">Hire Me</button></a>
+        <a id="portfolio" href="./portfolio.html" target="_blank">Portfolio</a>
+        <a href="./blog.html" target="_blank">Blog</a
+        >
+        <a href="https://www.fiverr.com/users/badshanisan/seller_dashboard" target="_blank"><button class="btn">Hire Me</button></a>
       </section>
     </nav>
     <header>
@@ -27,12 +29,12 @@
           </p>
           <div class="btn-s">
             <div class="parent">
-              <button class="btn">
+              <button onclick="download()" class="btn">
                 <img src="/images/download.png" />Download CV
               </button>
             </div>
             <div class="parent">
-              <button class="btn-contact">
+              <button onclick="call()" class="btn-contact">
                 <img src="/images/phone.png" />Contact
               </button>
             </div>
@@ -205,7 +207,7 @@
           </div>
         </div>
         <div class="parent">
-            <button class="btn">
+            <button onclick="download()" class="btn">
               <img src="/images/download.png" />Download CV
             </button>
           </div>
@@ -216,7 +218,7 @@
             <h2>Lets Connect</h2>
             <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
             <div class="icons">
-                <a href="#">  <img src="/images/icons/facebook.png"></a>
+                <a target="_blank" href="https://web.facebook.com/badsha.nisan/">  <img src="/images/icons/facebook.png"></a>
                <a href="#"> <img src="/images/icons/twitter.png"></a>
                 <a href="#"><img src="/images/icons/insta.png"></a>
             </div>
@@ -231,5 +233,6 @@
             </form>
         </div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>

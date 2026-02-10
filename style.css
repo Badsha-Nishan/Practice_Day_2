@@ -39,7 +39,7 @@ h3,
 }
 .nav-a > a:focus {
   text-decoration: underline;
-  color: blue;
+  color: purple;
 }
 .btn {
   font-size: clamp(1.8rem, 4vw, 2.2rem);
@@ -58,6 +58,9 @@ h3,
   background-color: #d45405;
   transform: scale(0.95);
   color: cadetblue;
+}
+.btn:active {
+  background-color: #fd6e0a;
 }
 .btn-contact {
   font-size: clamp(1.8rem, 4vw, 2.2rem);
