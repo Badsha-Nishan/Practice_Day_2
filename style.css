@@ -306,3 +306,7 @@ form > textarea {
 form > textarea:focus {
   outline: 1px solid #fd6e0a;
 }
+
+#status{
+  font-size: 1.8rem;
+}
